@@ -1,18 +1,36 @@
 <!-- 
+NOTE : FOR SOME USES OF GITBASH : IN VS CODE :CTRL+SHIFT+P AND I CHANGED THE DEFAULT TERMINAL TO GITBASH BUT LATER PLZ CHANGE TO POWERSHELL
+
 1. in terminal by ctrl+~ :write npm init and give all packagename,version,descroption,author name 
 2.in package we make a script as start
 3.install :npm install express in cmd to run express
 4.in cm d:npm i dotenv
 5.now push all to git : creating reporsitory and by applying code :in cmd 
 git init
-git add README.md
+git add .
+git config --global user.name "Prachi Kumari"
+git config --global user.email "prachi.kumari0004@gmail.com"
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/PrachiKumari06/Learning_Project1.git
 git push -u origin main
 
+:FOR DEMO CREATE INDEX.JS :// humne package .json me script tag me start ka diya h so hume ab pura nhi likhna padega : npm nodemon index.js just write npm start in terminal 
+import express from 'express'
+const app = express()
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
+app.listen(3000)
  
+6. there are many platorm where we can run the programs without installation like node , expresss can watch it from : CHAI AND CODE BACKEND SERIES
+ HERE WE GET FOR ALL FRONTED , BACKEND : "HTTPS://STACKBLITZ.COM"   for this :create backend node.js : it will generate automatic all the files required for it in this 
+ .now for this project in stackblitz : in their terminal : npm i mongoose 
+.now create a folder as models where we do practices of data modelling like todolist and all the practice in it 
 
-
-
+7. NOW HERE IN VS CODE WE WILL WORK ON PROJEECT :
+SO HERE I REMOVE ALL THE CONTEXT FROM INDEX.JS :
+8.NOW WE WILL GENERATE A .GITIGNORE FROM WEBSITE FOR NODE:https://mrkandreev.name/snippets/gitignore-generator/#Node
+9.create files in .js inside src: like in gitbash terminal : cd src->ls ->touch app.js constant.js index.js
+10.in packge.json : we write type:"module" for import, now in start we write npm nodemon so for this : in terminal : "npm i -D nodemon"
 -->
