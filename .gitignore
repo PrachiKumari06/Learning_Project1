@@ -1,6 +1,8 @@
 # node_modules
 # .env
 
+notes.html
+
 # go to this website :it will generate all the things that should be in gitignore :https://mrkandreev.name/snippets/gitignore-generator/#Node
 # Logs
 logs
